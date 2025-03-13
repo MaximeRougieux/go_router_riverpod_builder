@@ -1,0 +1,20 @@
+name: go_router_riverpod_builder
+description: An helper to integrate GoRouter with Riverpod.
+version: 0.0.1
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+  flutter: ">=3.27.2"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  go_router: 14.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  theodo_analysis: ^1.3.0
+  custom_lint: ^0.7.0
+  riverpod_lint: ^2.6.3
